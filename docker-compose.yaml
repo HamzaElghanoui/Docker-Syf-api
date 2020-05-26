@@ -1,0 +1,78 @@
+version: '2'
+networks:
+  network:
+    driver: bridge
+volumes:
+  mongodb_data:
+  drone_ci_data:
+services:
+  php:
+    build:
+      context: .docker/php7-fpm
+      args:
+        TIMEZONE: ${TIMEZONE}
+    volumes:
+      - ./core:/var/www/core
+    environment:
+      - ENV=local
+      - ELASTIC_ENV=local
+      - AUTH_ENV=local
+    container_name: php
+    hostname: php
+
+  nginx:
+    build:
+      context: .docker/nginx
+    container_name: nginx
+    hostname: nginx
+    ports:
+      - 80:80
+    volumes_from:
+      - php
+    environment:
+      - ENV=local
+      - ELASTIC_ENV=local
+      - AUTH_ENV=local
+    restart: always
+#    depends_on:
+#      - mongodb
+    volumes:
+      - ./.data/nginx:/var/log/nginx/
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=dev
+      - MYSQL_USER=dev
+      - MYSQL_PASSWORD=dev
+      - MYSQL_DATABASE=todo
+    volumes:
+      - ./.data/mysql:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    hostname: phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    ports:
+      - 8081:80
+    links:
+      - mysql
+
+
+#  mongodb:
+#    image: 077428399685.dkr.ecr.us-east-1.amazonaws.com/local-hireme-mongodb:v1.0.6
+#    container_name: mongodb
+#    hostname: mongodb
+#    environment:
+#      - ENV=local
+#    volumes:
+#      - mongodb_data:/data/db
+#    ports:
+#      - 27017:27017
