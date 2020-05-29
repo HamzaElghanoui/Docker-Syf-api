@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ba2677e-cfcb-4476-a15d-ec296fc81c4e" name="Default Changelist" comment="organisation git">
+      <change afterPath="$PROJECT_DIR$/.idea/Docker-Syf-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/api_platform.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/dev/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/easy_admin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/nelmio_cors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/sensio_framework_extra.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/test/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/test/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/translation.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/routes/annotations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/routes/api_platform.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/routes/dev/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/routes/easy_admin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/es6-promise/es6-promise.auto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/fetch/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/graphiql-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/graphiql/graphiql.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/graphiql/graphiql.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/graphql-playground/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/graphql-playground/middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/init-graphiql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/init-graphql-playground.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/init-redoc-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/init-swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/logo-header.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/react/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/react/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/redoc/redoc.standalone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/swagger-ui-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/swagger-ui-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/swagger-ui/swagger-ui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/apiplatform/webby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/app-custom-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/app-custom-rtl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/app.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/entrypoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-brands-400.06147b6c.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-brands-400.5063b105.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-brands-400.c5e0f14f.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-brands-400.cccc9d29.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-regular-400.65b286af.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-regular-400.c1a866ec.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-regular-400.c4f508e7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-regular-400.f5f2566b.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-solid-900.0bff33a5.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-solid-900.333bae20.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-solid-900.44d537ab.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/fonts/fa-solid-900.8e4a6dcc.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/form-type-code-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/form-type-code-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/form-type-code-editor.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/form-type-text-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/form-type-text-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/form-type-text-editor.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/fa-brands-400.a9c4bb73.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/fa-regular-400.7b9568e6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/fa-solid-900.c2801fb4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/AZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/BZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/CZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/DE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/DJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/DK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/DM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/DO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/DZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/EC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/EE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/EG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ER.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ET.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/FI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/FJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/FM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/FR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/GY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/HK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/HN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/HR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/HT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/HU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ID.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/IT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/JM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/JO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/JP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/KZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/LY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ME.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/MZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/NZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/OM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/PY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/QA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/RO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/RS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/RU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/RW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/SZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/TZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/UA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/UG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/US.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/UY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/UZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/VA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/VC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/VE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/VN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/VU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/WS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/XK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/YE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ZA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ZM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/images/flags/ZW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/bundles/easyadmin/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Controller/BlogController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/DataFixtures/AppFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Entity/Comment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Entity/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Entity/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/EventSubscriber/UserPasswordSubscriber.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Migrations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Migrations/Version20190919200335.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Migrations/Version20190919205206.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Migrations/Version20190922150507.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Migrations/Version20191003203552.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Migrations/Version20200526154014.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Repository/CommentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Repository/PostRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/base.html.twig" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/core/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/core/vendor/api-platform/api-pack" />
+      <path value="$PROJECT_DIR$/core/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/core/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/core/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/core/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/core/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/core/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/core/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/core/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/core/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/core/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/core/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/core/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/core/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/core/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/core/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/core/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/core/vendor/composer" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/sql-formatter" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1cRqQfdfxlIJAk64vDBG0mJhrTR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ba2677e-cfcb-4476-a15d-ec296fc81c4e" name="Default Changelist" comment="" />
+      <created>1590501738563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590501738563</updated>
+      <workItem from="1590501739945" duration="755000" />
+      <workItem from="1590506412221" duration="3975000" />
+      <workItem from="1590525672886" duration="981000" />
+      <workItem from="1590749364818" duration="560000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1590525702623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590525702623</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1590526218902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590526218902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="organisation git" />
+    <option name="LAST_COMMIT_MESSAGE" value="organisation git" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="557" y="107" key="CommitChangelistDialog2" timestamp="1590749890919">
+      <screen x="55" y="24" width="1865" height="1056" />
+    </state>
+    <state x="557" y="107" key="CommitChangelistDialog2/55.24.1865.1056@55.24.1865.1056" timestamp="1590749890919" />
+    <state x="587" y="275" key="Vcs.Push.Dialog.v2" timestamp="1590526237340">
+      <screen x="55" y="24" width="1865" height="1056" />
+    </state>
+    <state x="587" y="275" key="Vcs.Push.Dialog.v2/55.24.1865.1056@55.24.1865.1056" timestamp="1590526237340" />
+    <state x="751" y="256" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1590749889110">
+      <screen x="55" y="24" width="1865" height="1056" />
+    </state>
+    <state x="751" y="256" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/55.24.1865.1056@55.24.1865.1056" timestamp="1590749889110" />
+    <state x="650" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1590749867796">
+      <screen x="55" y="24" width="1865" height="1056" />
+    </state>
+    <state x="650" y="236" width="672" height="678" key="search.everywhere.popup/55.24.1865.1056@55.24.1865.1056" timestamp="1590749867796" />
+  </component>
+</project>

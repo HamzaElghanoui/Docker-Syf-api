@@ -1,2 +1,11 @@
 php bin/console doctrine:migrations:generate
 php bin/console doctrine:migrations:migrate
+
+
+************ git ****************
+
+1- gitignore not working
+ git rm -r --cached .
+ git add .
+
+2-
