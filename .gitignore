@@ -7,3 +7,5 @@ core/var/cache
 /core/var/cache/
 /core/var/log/
 vendor
+/core/vendor/
+/core/var/cache/dev/
